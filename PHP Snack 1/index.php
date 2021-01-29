@@ -29,9 +29,9 @@ Olimpia Milano - Cantù | 55 - 60 -->
         <title>PHP Snack 1</title>
     </head>
     <body>
-    <h1><?php for($i=0; $i < count($matches); $i++){
-        echo $matches[$i]["homeTeam"] . " - " . $matches[$i]["awayTeam"] . " / " . $matches[$i]["homePoints"] . " - " . $matches[$i]["awayPoints"] ; 
-        ?> <br> <?php
+    <h1><?php for($i=0; $i < count($matches); $i++) {
+        echo $matches[$i]["homeTeam"] . " - " . $matches[$i]["awayTeam"] . " / " . $matches[$i]["homePoints"] . " - " . $matches[$i]["awayPoints"]; 
+        ?><br><?php
     } ?>
     </h1>
     </body>
